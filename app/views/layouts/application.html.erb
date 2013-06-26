@@ -7,8 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%= params.inspect %>
+<%= link_to "MakerSquare", "http://themakersquare.com" %>
+<%= link_to "User List", "/users" %>
+<%= link_to "Products", "/products" %>
 
 <%= yield %>
+
+
 
 </body>
 </html>
